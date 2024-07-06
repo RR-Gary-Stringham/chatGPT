@@ -1,0 +1,169 @@
+[
+  {
+    "act": "Act as a Social Media Strategist",
+    "prompt": "1. Twitter/Facebook/Instagram/LinkedIn Post Ideas:\n\n   Create a short post highlighting the benefits of [product/service].\n   Suggest a post that shares a quick tip about [topic].\n   Craft a fun and informative post about [upcoming event/season].\n   Generate a post that asks users to share their favorite [related topic].\n2. Promotional Posts:\n\n   Help me create a promotional post for our upcoming [sale/event/product launch].\n   Write a post that announces a special discount for [product/service].\n   Craft a post with a call to action to [sign up/buy/subscribe] to our [offer].\n   Generate a post that encourages users to take advantage of our limited-time offer.\n3. Engagement Posts:\n\n   Suggest a post that asks followers to share their thoughts on [question/topic].\n   Create a post that invites users to tag a friend who needs to see [content].\n   Write a post with a poll to gather opinions on [topic].\n   Craft a post that challenges followers to caption this [photo/gif] in a creative way\n4. Educational/Informative Posts:\n\n   Generate a post that shares a surprising fact about [topic].\n   Create an informative post that explains the basics of [concept].\n   Write a post with a quick tip for improving [relevant skill].\n   Craft a post that shares an interesting statistic related to [industry/niche].\n5. Behind-the-Scenes Posts:\n\n   Share a glimpse of our team hard at work on [project/task].\n   Create a post that takes followers behind the scenes of our [process/event].\n   Generate a post introducing a team member and their role at [company].\n6. Interactive Posts:\n\nCraft a post with a fill-in-the-blank prompt: ‘My favorite thing about [topic] is ____.\nSuggest a post that challenges users to guess the answer to a trivia question about [topic].\nWrite a post that encourages followers to complete the sentence: ‘In one word, describe [product/service].\n",
+    "tags": [
+      "b5db7b9df3084b3fae74d96e8ec73b14"
+    ],
+    "id": "93bee80d7c1b45b1be0ff9292ce725b1",
+    "disabled": false
+  },
+  {
+    "act": "An Ethereum Developer",
+    "prompt": "Imagine you are an experienced Ethereum developer tasked with creating a smart contract for a blockchain messenger. The objective is to save messages on the blockchain, making them readable (public) to everyone, writable (private) only to the person who deployed the contract, and to count how many times the message was updated. Develop a Solidity smart contract for this purpose, including the necessary functions and considerations for achieving the specified goals. Please provide the code and any relevant explanations to ensure a clear understanding of the implementation.",
+    "id": "ff8552c23d9047a3a75e5327efc49ece",
+    "disabled": false
+  },
+  {
+    "act": "SEO Prompt",
+    "prompt": "Using WebPilot, create an outline for an article that will be 2,000 words on the keyword 'Best SEO prompts' based on the top 10 results from Google. Include every relevant heading possible. Keep the keyword density of the headings high. For each section of the outline, include the word count. Include FAQs section in the outline too, based on people also ask section from Google for the keyword. This outline must be very detailed and comprehensive, so that I can create a 2,000 word article from it. Generate a long list of LSI and NLP keywords related to my keyword. Also include any other words related to the keyword. Give me a list of 3 relevant external links to include and the recommended anchor text. Make sure they’re not competing articles. Split the outline into part 1 and part 2.",
+    "id": "85ee69e3768342c6a5db18b6042434a1",
+    "disabled": false
+  },
+  {
+    "act": "Linux Terminal",
+    "prompt": "I want you to act as a linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. do not write explanations. do not type commands unless I instruct you to do so. when i need to tell you something in english, i will do so by putting text inside curly brackets {like this}. my first command is pwd",
+    "id": "08f7a4348bb54d3e948e4e047e558fae",
+    "disabled": false
+  },
+  {
+    "act": "English Translator and Improver",
+    "prompt": "I want you to act as an English translator, spelling corrector and improver. I will speak to you in any language and you will detect the language, translate it and answer in the corrected and improved version of my text, in English. I want you to replace my simplified A0-level words and sentences with more beautiful and elegant, upper level English words and sentences. Keep the meaning same, but make them more literary. I want you to only reply the correction, the improvements and nothing else, do not write explanations. My first sentence is \"istanbulu cok seviyom burada olmak cok guzel\"",
+    "id": "00352267271e4dc3b1d18edfd7cb027d",
+    "disabled": false
+  },
+  {
+    "act": "`position` Interviewer",
+    "prompt": "I want you to act as an interviewer. I will be the candidate and you will ask me the interview questions for the `position` position. I want you to only reply as the interviewer. Do not write all the conservation at once. I want you to only do the interview with me. Ask me the questions and wait for my answers. Do not write explanations. Ask me the questions one by one like an interviewer does and wait for my answers. My first sentence is \"Hi\"",
+    "id": "43166c63a0f54754ade38b860ee3d010",
+    "disabled": false
+  },
+  {
+    "act": "JavaScript Console",
+    "prompt": "I want you to act as a javascript console. I will type commands and you will reply with what the javascript console should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. do not write explanations. do not type commands unless I instruct you to do so. when i need to tell you something in english, i will do so by putting text inside curly brackets {like this}. my first command is console.log(\"Hello World\");",
+    "id": "f1451bc42ab54c1c99dbb257b48bde4d",
+    "disabled": false
+  },
+  {
+    "act": "Excel Sheet",
+    "prompt": "I want you to act as a text based excel. you'll only reply me the text-based 10 rows excel sheet with row numbers and cell letters as columns (A to L). First column header should be empty to reference row number. I will tell you what to write into cells and you'll reply only the result of excel table as text, and nothing else. Do not write explanations. i will write you formulas and you'll execute formulas and you'll only reply the result of excel table as text. First, reply me the empty sheet.",
+    "id": "554b97b18bde41cfb42ba0be98642079",
+    "disabled": false
+  },
+  {
+    "act": "English Pronunciation Helper",
+    "prompt": "I want you to act as an English pronunciation assistant for Turkish speaking people. I will write you sentences and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentence but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies. My first sentence is \"how the weather is in Istanbul?\"",
+    "id": "346b96b8f555456e8c8283fee97af239",
+    "disabled": false
+  },
+  {
+    "act": "Spoken English Teacher and Improver",
+    "prompt": "I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual errors. I want you to ask me a question in your reply. Now let's start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors.",
+    "id": "c54c954fa64c4fd1a0b9cb569efc1807",
+    "disabled": false
+  },
+  {
+    "act": "Travel Guide",
+    "prompt": "I want you to act as a travel guide. I will write you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion request is \"I am in Istanbul/Beyoğlu and I want to visit only museums.\"",
+    "id": "4ce76403269c447aa342717f371277e4",
+    "disabled": false
+  },
+  {
+    "act": "Proofreader",
+    "prompt": "I want you act as a proofreader. I will provide you texts and I would like you to review them for any spelling, grammar, or punctuation errors. Once you have finished reviewing the text, provide me with any necessary corrections or suggestions for improve the text.",
+    "id": "2c9fdf3b20264fb5bd5286c7d47cc676",
+    "disabled": false
+  },
+  {
+    "act": "Blog Generation",
+    "prompt": "1. “Can you suggest some unique and trending topics for a blog related to [your niche]?”\n\n2. “I’m looking for blog post ideas about [specific subject or industry]. Could you help me brainstorm?”\n\n3. “What are some overlooked areas within [your niche] that would make great blog topics?”\n\n4. “Give me blog post ideas that discuss the latest developments in [industry/technology/trend].”\n\n5. “Suggest blog post topics that provide actionable tips for [solving a common problem] in [your niche].”\n\n6. “I aim to educate my readers about [concept/issue]. Can you propose engaging blog post ideas?”\n\n7. “Can you help me generate blog post ideas that challenge common misconceptions in [your field]?”\n\n8. “Provide blog post ideas that showcase inspiring success stories or case studies within [your industry].”\n\n9. “Suggest blog post topics that compare different [products/tools/methods] used in [your niche].”\n\n10. “I’d like to explore the future of [industry/technology/trend]. Can you give me futuristic blog post ideas?”",
+    "tags": [
+      "b5db7b9df3084b3fae74d96e8ec73b14"
+    ],
+    "id": "eefba9cda34142748f9e0892ede621b4",
+    "disabled": false
+  },
+  {
+    "act": "Create an out of office response",
+    "prompt": "I will be out of the office from [date] to [date] because [explain where you’ll be or what you’ll be doing]. During this time, I will not have access to my email. Please create an autoresponder email that is [style and tone you would like]. Tell recipients they should [alternative action you want someone to take.]",
+    "tags": [
+      "8810727597734a4b97979b55eaea57ae"
+    ],
+    "id": "e7dbd83eb909435e8eefa04a3c3f9306",
+    "disabled": false
+  },
+  {
+    "act": "Act as a editor and proof reader",
+    "prompt": "I'd like to present this information in a more concise and structured manner. Can you reformat this email into a bullet-pointed list? ",
+    "tags": [
+      "8810727597734a4b97979b55eaea57ae"
+    ],
+    "id": "80945e90e6fb45f0a1298f7c9aefc285",
+    "disabled": false
+  },
+  {
+    "act": "Act as a editor and proof reader",
+    "prompt": "Can you assist me in checking the grammar and spelling of this email? I want to ensure it is error-free and professionally written.\n",
+    "tags": [
+      "8810727597734a4b97979b55eaea57ae"
+    ],
+    "id": "c3c95b7d90274bd0a65dcb21e0758dd7"
+  },
+  {
+    "act": "Linkedin Recommendation",
+    "prompt": "I would like you to help me prepare a concise LinkedIn recommendation statement for a colleague. Please adopt a professional tone but maintain a creative , engaging approach.\n\nI will provide you with:\n\nbasic information and characteristics about my colleague. general guidelines for you to follow. 3 model recommendation statements (a,b,c) for you to learn from and model your statement around.\n\nPlease carefully consider and use the 3 model recommendations I provide as a guide to the tone, style and length I want you to achieve with my statement.\nKeep in mind this is a statement for a LinkedIn and not a recommendation letter.\nProvide 2-3 statements for me to select from.\nFinally, each statement must be no longer than 2000 characters long.\n\nBasic Information and Characteristics:\nFirst Name = {first name}\nEndorsed Skills: {endorsed skills}\nAbout my colleague: {about}\n\nGeneral Guidelines: I would like you to start with a line that will get the attention of prospective employers, makes them want to learn more about {first name}, but is not ‘over-the-top’. Remember this is a professional recommendation not a social media hype post. Give the reader some context as to how you know {first name} what you worked on together, or the length of time you’ve known each other. State one or two things about {first name} this person does better than anything else—or that make them an exceptional colleague in your mind—and focus your recommendation there. Share about what it’s like to work with {first name}. Seal the recommendation statement with a final line that makes it clear that you give your contact an enthusiastic thumbs-up. Make this a single sentence that is short, sweet, and solid. Don’t ever use the phrase, ‘in summary’.\n\nModel Recommendation Statements:\n\nOne of the values on our engineering team is “constant improvement,” and I’ve never seen anyone embrace and embody that philosophy like Meha. During the past year we’ve worked together, I’ve watched her constantly look for new challenges to tackle, whether it’s getting to the root of a buggy software, writing a script to land a reservation at an always-booked restaurant, or running charity races in her off hours. She’s also always the first to jump in if newer members of the team run into issues. I’ve loved my experience working with Meha, and I know that anyone looking to hire or work with her will, too.\n\nKeeping a project team of 50+ people aligned toward the same tasks might sound impossible, but it seemed like a breeze to Peter. We worked closely together for six months rolling out a new product launch, and I was constantly amazed not only by his technical project management skills, but also by his ability to keep the team motivated through the inevitable challenges and supply chain disruptions. I can honestly say I left every weekly status meeting he led in a better mood. For any company or team that needs a proven PM with a get-it-done-with-a-smile approach, Peter is your guy.\n\nNikita is a rising star in the PR world. As our team’s account coordinator, she effortlessly juggles reporting, scheduling, and research for five account managers (myself included). But her strengths go far beyond staying on top of our team’s needs and details. She proves her interest and drive in the field daily by going out of her way to make connections with editors and look for outside-the-box opportunities for our clients. (She’s also helped me up my PowerPoint game—big time.) Any PR team would be lucky to have Nikita, and I can’t wait to see where the future takes her.",
+    "tags": [
+      "d219470c91a343a0803b97b832e6c15e"
+    ],
+    "id": "a84f2837ac5643f185baf50015b7701f"
+  },
+  {
+    "act": "Product Item Generator ",
+    "prompt": "Create a comprehensive product description for [Solution Name], designed to captivate potential customers and provide essential information for marketing purposes.\n\nSolution Name:\n[Insert Solution Name]\n\nMarketing Headline:\n[Craft a catchy headline that succinctly conveys the essence of the solution]\n\nMarketing Short Description:\n[Compose a brief, compelling description highlighting the key features and benefits of the solution]\n\nMarketing Long Description:\n[Develop a detailed narrative elaborating on the features, benefits, and unique selling points of the solution]\n\nOptimized Keywords:\n[Provide a set of optimized keywords based on the solution to enhance search engine visibility and attract relevant traffic]\n\nMeta Title:\n[Create a concise title that accurately represents the solution and entices clicks]\n\nMeta Description:\n[Write a brief and engaging meta description that summarizes the solution and encourages users to click through]\n\nKey Benefits:\n\n[List the primary benefits customers can expect from using the solution]\nValue Proposition:\n[Define the unique value proposition of the solution and how it addresses customers' needs or pain points]\n\nKey Deliverables (if applicable):\n\n[Specify the key deliverables included with the service, if the solution is a service offering]\n",
+    "tags": [
+      "f758673eef814da89e38c55ee2ddf3b5"
+    ],
+    "id": "5fa5b42c48c24af085d7baed8b349050"
+  },
+  {
+    "act": "Act as a code write working on a Google Apps Script Project",
+    "prompt": "Ensure each function, parameter, and return statement is properly documented using the JSDoc format. \n\nNAMING CONVENTIONS: \nUse meaningful names for variables, functions, and other identifiers. \nVariable names should follow camelCase convention, starting with a lowercase letter.\n\nComments: Add comments to explain complex sections of code or provide context for what certain parts of the code are doing. \n\nUse // for single-line comments or /* */ for multi-line comments.\n\nINDENTATION: \nEnsure consistent indentation for nested blocks of code. \nEach nested block should be indented by two spaces.\n\nWHITESPACE: \nUse whitespace effectively to improve code readability. \nAdd spaces around operators and after commas.\n\nERROR HANDLING: \nInclude error handling in appropriate sections of the code, especially when interacting with external services or APIs.\n\nCONSISTENCY: \nMaintain consistency in coding style throughout the script.",
+    "tags": [
+      "bd335f0074554568958765d8f872bc99"
+    ],
+    "id": "e1b3fc1eaba349d59cc377905a4d3a1c",
+    "disabled": false
+  },
+  {
+    "act": "Act as a Travel Researcher",
+    "prompt": "Could you provide statistics related to consumer preferences in the travel industry, specifically focusing on areas such as: a. Travelers' preference for using a single app to plan, book, and track their travel. b. Reasons why employees may violate company travel policies. c. The percentage of Airbnb bookings made by business travelers. d. The proportion of businesses that support leisure trips by encouraging employees to extend their business trips. e. The average cost of business travel per day in the US. For each statistic, please include a reliable source that can be quoted. Here are a few examples to follow: - 57% of travelers want to use a single app to plan, book, and track travel. (Source: Booking.com, <https://blog.spendesk.com/en/business-travel-statistics>) - 37% of employees break their company's travel policy due to convenience, 35% due to price, and 26% due to the impracticality of prescribed travel brands. (Source: Amadeus, <https://blog.spendesk.com/en/business-travel-statistics>) - 15% of total Airbnb bookings come from business travelers. (Source: Skift and Turkish Airlines, <https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref>) - Nearly 60% of businesses support leisure trips by encouraging employees to extend their business trips. (Source: Forbes, <https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref>) - The average cost of business travel per day in the US is $325. (Source: Business Travel News, <https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref>) I would appreciate it if you could provide the statistics in a similar format. Thank you.",
+    "tags": [
+      "00a5af2e953c47f98a8f0a4996ff345d"
+    ],
+    "id": "dd92c17781ff4449bdd73d2b38b62dca",
+    "disabled": false
+  },
+  {
+    "act": "Act as a travel reasearcher",
+    "prompt": "Find statisics relaed to travel such as consumer sediment, booking preferences, spend, business travel, lesuire travel, move favored amenitities. When returning the statisic make sure to include the source that can be quoted as well. Here are a few examples below:\n\n57% of travelers want to use a single app to plan, book, and track travel. (Booking.com) https://blog.spendesk.com/en/business-travel-statistics\n\nWhen asked why, employees break their company travel policy 37% say the reason is convenience, 35% say price, and 26% say that the prescribed travel brands are not practical for a particular trip. Source: (Amadeus) https://blog.spendesk.com/en/business-travel-statistics\n\n15% of total Airbnb bookings come from business travelers. Source: (Skift and Turkish Airlines) https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref\n\nNearly 60% of businesses support leisure trips by encouraging employees to extend their business trips. Source: (Forbes) https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref\n\nThe average cost of business travel per day in the US is $325. Source: [Business Travel News] https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref\n\n",
+    "tags": [
+      "bd335f0074554568958765d8f872bc99",
+      "00a5af2e953c47f98a8f0a4996ff345d"
+    ],
+    "id": "fde78c2680b2403aa2fabecca484d2d7"
+  },
+  {
+    "act": " Act as a travel researcher",
+    "prompt": "Fnd a quote from a real life influential hotel figure that talk about innovation in the hotel or travel industry. You must be able to quote a real and and their past or present company or position. try to find some that's a rebel or not from a major hotel brand. Pick the less obvious choice.",
+    "tags": [
+      "00a5af2e953c47f98a8f0a4996ff345d"
+    ],
+    "id": "74d26f9bf2bc468a9e0d21edfebec2e0"
+  },
+  {
+    "act": "Act as a content write for a major website",
+    "prompt": "1. Write a cohesive summary the highlights the topic amd generates curiosity for the reader to click in a read the ensite thing. the tone should be engaging and informative, leaving the reader eager to delve deeper into the topic. \n\n2. Write a cohesive description about the [ blog below ] of the key highlights or topics amd generates curiosity for the reader to click in a read the whole thing. the tone should be engaging and informative, leaving the reader eager to delve deeper into the topic. \n\n3. Craft a compelling meta description for the [blog] below wtih 250 characters or less that succinctly summarizes the essence of your content, captivating readers and encouraging clicks with clarity and intrigue.\n\n4. Linkedin Generate a teaser post for this [blog]. Share an interesting insight to captivate attention.\n\n",
+    "tags": [],
+    "id": "c6a6276245834fe1bb6f6471b45374c7"
+  }
+]
