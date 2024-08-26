@@ -1,5 +1,440 @@
 [
   {
+    "act": "Long-tail keywords",
+    "prompt": "Research and generate long-tail keywords tailored to [industry] and [niche], focusing on the specific needs, interests, and preferences of [your target audience].",
+    "tags": [],
+    "id": "eb6926bb3ec649b79c8a74837026c75d",
+    "disabled": false
+  },
+  {
+    "act": "In-depth Content Analysis",
+    "prompt": "Description: Analyzes a piece of content for SEO optimization, focusing on keyword targeting, on-page optimization (e.g., title tags, internal linking), content quality, relevance, and technical SEO considerations. Well-optimized content ranks higher in search results and attracts organic traffic.\n\nI want to analyze a piece of content for SEO optimization. Here's the link to the content: [insert content URL]. My target audience is [describe your target audience]. Can you analyze the content and provide insights on the following aspects:\nKeyword Targeting\nOn-Page Optimization\nContent Quality and Relevance\nTechnical SEO Considerations",
+    "tags": [],
+    "id": "c414aee546d74bf5864ffac13df00f23",
+    "disabled": false
+  },
+  {
+    "act": "Content Gap Identification",
+    "prompt": "Description: Guides you through comparing your website's meta titles with competitors to identify content gaps. This helps discover topics your competitors are covering that you might be missing, informing your content strategy.\n\nCompare the meta titles of your website's overall pages with those of your competitors' overall website pages to identify content gaps. Create a spreadsheet or document to organize the meta titles from both sources for easy comparison. Analyze the similarities and differences between the meta titles to pinpoint areas where your competitors are covering topics or using keywords that your website is not.",
+    "tags": [],
+    "id": "6054b77110d4424182816118c86ed1ad",
+    "disabled": false
+  },
+  {
+    "act": "Link Reclamation",
+    "prompt": "Description: Provides a guide to creating a Python script for identifying broken links on your website. Broken links frustrate users and harm SEO. Fixing them is essential for website health.\n\nDevelop a Python script to systematically crawl a website and identify broken links returning 404 error responses. Utilize libraries such as Requests or Urllib (URL Handling Modules) to send HTTP requests to each URL, checking for a 404 status code. Implement error handling to gracefully handle timeouts, network errors, or other issues that may arise during the crawling process. Generate a report listing the URLs of all broken links found, along with their corresponding error responses.",
+    "tags": [],
+    "id": "e6dec1f6ba834668bfceff5ec564266f",
+    "disabled": false
+  },
+  {
+    "act": "Social Bookmarking",
+    "prompt": "Description: Recommends relevant social bookmarking platforms to share high-quality blog posts and target specific audiences. It also helps craft compelling descriptions and tags for optimized submissions. Social bookmarking increases content visibility and potential traffic.\n\nI recently published a high-quality blog post on [topic of your article]. Here's the link: [insert your link]. Can you suggest relevant social bookmarking platforms where I can share this content and target a specific audience? Additionally, can you help me craft compelling descriptions and tags to optimize my submissions?",
+    "tags": [],
+    "id": "1b48dfabc33c4cfc90e7c4fbc4ce38af",
+    "disabled": false
+  },
+  {
+    "act": "Content Repurposing",
+    "prompt": "Description: Suggests creative ways to transform existing blog posts into different formats (e.g., infographics, videos) for wider reach on various platforms. Repurposing content maximizes its value and audience engagement.\n\nI have a blog post titled \"[blog post title]\" on [topic]. Can you suggest creative ways to repurpose this content into other formats for different platforms?",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304"
+    ],
+    "id": "b5c912757fb54b4ca05e59de1754e7f5",
+    "disabled": false
+  },
+  {
+    "act": "Page Speed Insights",
+    "prompt": "Description: Analyzes a Google PageSpeed Insights report for your website and suggests solutions to address key issues impacting speed and performance. Faster websites provide a better user experience and rank higher in search results.\n\nI recently analyzed my website [your website URL] using Google PageSpeed Insights and received a score of [your score]. I'd like to improve its speed and performance. Can you analyze the report and suggest specific actions I can take to address the key issues identified by PageSpeed Insights?\nAdditionally, you can specify your website's platform (e.g., WordPress, Wix) or CMS (Content Management System) for more tailored recommendations.",
+    "tags": [],
+    "id": "90f4e77361ea435bb808bed60a7f7e63",
+    "disabled": false
+  },
+  {
+    "act": "Content Calendar Planning",
+    "prompt": "Description: This prompt guides you in creating a content calendar for a specific timeframe, focusing on a broad content theme aligned with your target audience.\n\nTheme-Based Planning\nI'm building a content calendar for the next [month/quarter] with a focus on [broad content theme].\nMy target audience is [target audience description]. Can you suggest a variety of sub-themes and content ideas that align with the main theme and resonate with my audience?",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304"
+    ],
+    "id": "2795e5aec6024a9db5b6889d8442d3ad",
+    "disabled": false
+  },
+  {
+    "act": "External Link Building",
+    "prompt": "Description: This prompt helps you find high-quality websites that would benefit from linking to your content. Backlinks from reputable sites boost your SEO and website authority.\n\nBrainstorm Link-Building Opportunities\nI run a website about [your niche]. Help me brainstorm creative ways to find high-quality websites that would benefit from linking to my content.",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304"
+    ],
+    "id": "45b0fcb50b67442ca80a332a17136b28",
+    "disabled": false
+  },
+  {
+    "act": "Content Evergreening",
+    "prompt": "Description: This prompt helps you brainstorm 10 evergreen content ideas relevant to your niche. Evergreen content remains consistently relevant to your target audience and isn't tied to fleeting trends.\n\nBrainstorm 10 evergreen content ideas relevant to my niche (e.g., [your niche]). These topics should be consistently relevant to my target audience and not tied to current trends.",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304"
+    ],
+    "id": "8feb9a682b164fbda704d937f9bc3085",
+    "disabled": false
+  },
+  {
+    "act": "Link Building",
+    "prompt": "Description: The prompt is designed to help you analyze potential websites for your link-building campaign targeting the \"[Target Keyword]\". Link building is an SEO strategy where you acquire links from other websites to your own. Links from high-quality websites can improve your website's authority and ranking in search results.\n\nI'm building a link-building campaign targeting the keyword \"[Target Keyword]\". I have a list of potential websites [Insert list of URLs (separated by commas) or upload a file containing URLs].\n\nFor each URL, I'd like to gather the following data to qualify them for link-building:\n\n1. Domain Authority (DA): Indicate the Domain Authority (DA) according to a reliable SEO tool (e.g., Moz, Ahrefs)\n\n2. Internal Links: Estimate the average number of internal links pointing to a page on the website.\n\n3. Outbound Links: Estimate the average number of outbound links from a page on the website.\n\n4. Spam Score: Assess the website's spam score using a reliable SEO tool\n\nAdditionally:\nBriefly categorize the website's topical relevance to \"[Target Keyword]\". (Highly Relevant, Somewhat Relevant, Not Relevant)\nFor high-potential websites (based on the metrics above), suggest a possible anchor text for the link.\n\nNote: You may need to specify the maximum number of URLs you want ChatGPT to analyze at once, depending on its capabilities.\n\nDescription: The prompt is designed to help you analyze potential websites for your link-building campaign targeting the \"[Target Keyword]\". Link building is an SEO strategy where you acquire links from other websites to your own. Links from high-quality websites can improve your website's authority and ranking in search results.",
+    "tags": [],
+    "id": "0ecc2e61fd4547adab5d5b05aefe17f6",
+    "disabled": false
+  },
+  {
+    "act": "Content Optimization: Act as an website expert in Search Engine Optimization & Content Creation",
+    "prompt": "Description: The prompt helps you with various aspects of Search Engine Optimization (SEO) for your blog posts. It allows you to optimize different elements of your content to improve its ranking in search results and increase click-through rates (CTR)\n\nI have a blog post titled \"[Original Title]\" targeting the keyword \"[Target Keyword]\".\n\n1. Readability and Clarity: Analyze the content for readability score and suggest improvements to enhance clarity and user experience. Consider factors like sentence structure, paragraph length, and use of transition words.\n\n2. Content Structure and Flow:\nReview the overall structure of the post and suggest improvements for logical flow and organization. This might involve rearranging sections, adding subheadings, or creating bullet points for better scan-ability\n\n3. Internal Linking:\nIdentify opportunities to link to relevant internal pages on your website\nThis can improve website navigation and user engagement.\n\nBonus:\nGenerate a brief social media caption promoting the blog post with a relevant call to action (CTA).",
+    "tags": [],
+    "id": "82229b0df9ce4bb7a87a52b3c319c82d"
+  },
+  {
+    "act": "Local SEO Optimization:  Act as an website expert in Search Engine Optimization",
+    "prompt": "Context: This prompt provides guidance for business that has a physical location and wants to enhance local SEO presence. They want to learn strategies for optimizing their Google My Business listing, building local citations (mentions of the business online), and attracting positive customer reviews.\n\nSpecific Information: Our business has a physical location and we want to improve our local SEO presence. Outline a strategy for optimizing our Google My Business listing, building local citations, and attracting positive customer reviews.",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "e38dec8f35d04d1591963e108fac05eb"
+  },
+  {
+    "act": "On-Page SEO Optimization",
+    "prompt": "Description: This prompt instructs you to analyze sample web pages from your website and identify opportunities for improvement in on-page SEO. This includes keyword optimization, meta descriptions, title tags, and internal linking structure.\n\nAnalyze 3 sample web pages from our website (provide URLs) and identify areas for improvement in on-page SEO optimization. Include keyword optimization, meta descriptions, title tags, and internal linking structure.\n",
+    "tags": [],
+    "id": "fefe442c92f841dfb6f6226755582202"
+  },
+  {
+    "act": "Backlink Building Strategies",
+    "prompt": "Description: This prompt encourages you to brainstorm creative backlink-building strategies relevant to your niche while adhering to search engine guidelines. Backlinks are crucial for SEO as they signal website authority and relevance to search engines.\n\nOur website currently has a low domain authority. Suggest creative backlink-building strategies that are relevant to our niche (e.g., [your niche]) and comply with search engine guidelines.",
+    "tags": [],
+    "id": "200015bdcc754f9eb077fbdd599ea216"
+  },
+  {
+    "act": "Content Strategy for Brand Building and SEO",
+    "prompt": "Description: This prompt helps you develop a content strategy to strengthen brand awareness, establish authority in your niche, and improve SEO rankings. You'll consider content formats, relevant topics, and potential influencer collaborations.\n\nDescription: This prompt guides you to assess your current brand identity and online presence. You'll identify brand strengths and weaknesses, research top competitors, and conduct a keyword gap analysis to find SEO opportunities.\n\nDevelop a content strategy for [your website] that strengthens brand awareness, establishes us as an authority in our niche (e.g., [your niche]), and improves SEO rankings for relevant keywords. Include content formats, topics, and potential collaborations with influencers.",
+    "tags": [],
+    "id": "c0232c1fa8d24022b4c77418c1dffb51"
+  },
+  {
+    "act": "Identifying Brand Strengths and SEO Gaps",
+    "prompt": "Analyze our current brand identity and online presence for [your industry]. Identify our brand strengths and weaknesses. Additionally, we will research our top competitors and conduct a keyword gap analysis to identify SEO opportunities we can leverage.",
+    "tags": [],
+    "id": "2325124670504ced8c8081fe2c3f8449",
+    "disabled": false
+  },
+  {
+    "act": "Analyze Website Elements and Suggest Improvements",
+    "prompt": "Description: This prompt provides a framework to analyze your website and identify areas for improvement based on CRO best practices. You'll create a checklist of essential website elements for businesses selling your product category.\n\nProvide a checklist of essential website elements for a business selling [product category] Then, analyze my current website and suggest improvements for each element based on best CRO practices.",
+    "tags": [],
+    "id": "ceb89c506e204b1da526aae786e3bead"
+  },
+  {
+    "act": "Generate A/B Testing Ideas",
+    "prompt": "Description: This prompt encourages you to brainstorm variations for the hero image and form placement on your website's homepage to A/B test for better lead generation.\n\nI'm running an A/B test on my website's homepage to improve lead generation. The current version has a hero image and a contact form. Suggest variations for the hero image and form placement to test for better conversion rates.",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "30fd46cbb73d4197b77b6e3cb27ddac2"
+  },
+  {
+    "act": "Enhance Product Descriptions",
+    "prompt": "Description: his prompt instructs you to rewrite a generic product description by leveraging product page information and target audience details. You'll emphasize unique selling propositions (USPs) and address customer pain points to make the description more compelling and conversion-driven.\n\nI have a product description for [product name] that seems generic and doesn't convert well.  Use the information on the product page and target audience details to rewrite the description, highlighting the unique selling points and addressing customer pain points.",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304"
+    ],
+    "id": "357592dd34aa4c35a574e62c061d3a48"
+  },
+  {
+    "act": "Craft Compelling Headlines and CTAs",
+    "prompt": "Description: This prompt helps you craft clear, concise headlines that highlight key benefits for your target audience and persuasive CTAs (Calls to Action) that complement each headline.\n\nWrite 5 variations of headlines for a landing page promoting [product/service]. Each headline should be clear, and concise, and target the key benefits for [target audience]. Additionally, generate strong CTAs (Calls to Action) that complement each headline.",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304"
+    ],
+    "id": "6188cfaa6dba4cf1940902738cb6b5e1"
+  },
+  {
+    "act": "Conversion Rate Optimization (CRO)",
+    "prompt": "Description: This prompt guides you to analyze user behavior data and identify checkout process issues that contribute to cart abandonment. You'll then suggest improvements that address customer pain points and streamline the checkout flow, boosting conversions.\n\nI'm working on a website selling [product category] to [target audience]. \n\nCustomer feedback suggests there might be issues with the checkout process. Analyze user behavior data and suggest ways to improve the checkout flow to reduce cart abandonment and increase conversions.",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "4e957024cc654551a11842bc417cbacf"
+  },
+  {
+    "act": "Outbound Linking",
+    "prompt": "Description: This prompt prompts you to devise a strategic approach for incorporating outbound links into your blog post to optimize SEO performance. By carefully selecting relevant and authoritative sources, using descriptive anchor text, and prioritizing user experience, you can enhance your website's credibility and provide valuable resources for readers while improving search engine rankings.\n\nProvide the target blog post URL or a brief description of the blog post topic.\nInstructions:\n\nDevelop a strategic plan for outbound linking within the target blog post to enhance SEO. Consider the following in your response:",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "51db5da36eb645c2982c83f8615f4a8e"
+  },
+  {
+    "act": "User-Generated Content",
+    "prompt": "Description: This Prompt Brainstorms different types of User-Generated Content (UGC) you can encourage visitors to create and share on your website, promoting engagement and SEO.\n\nI run a website about [Your website topic]. I want to develop a strategy to leverage user-generated content (UGC) to increase website engagement and improve SEO.\n\nBrainstorm 3-5 different types of UGC I can encourage visitors to create and share on my website. (e.g., product reviews, photo contests, customer stories)",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304",
+      "4c0733f51916430281f7ed15d91e7d60"
+    ],
+    "id": "71ed07070fd34218815ca42774d43395"
+  },
+  {
+    "act": "Content Gap Analysis",
+    "prompt": "Description: Analyzes the content strategies of your top competitors, identifying their strengths and weaknesses related to content and target audience. Based on the analysis, pinpoints key content gaps across all competitors. Recommends 3-5 content ideas to address these gaps and target your ideal audience.\n\nAnalyze the content strategies of my top competitors:\n[Competitor 1], [Competitor 2], and [Competitor 3]. \n\nCreate a table with the following columns:\nCompetitor\nContent Strengths (e.g., High-quality videos, In-depth blog posts)\nContent Weaknesses (e.g., Lack of beginner guides, Limited content on specific topics)\n\n[Target Audience]\nAdditionally, after the table, answer the following:\n1. Based on the analysis, what are the key content gaps across all competitors?\n2. What are 3 to 5 content ideas you recommend I create to address these gaps and target my ideal audience?",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304"
+    ],
+    "id": "96b97de8d2084a94a1294e1b3dc4a6c7"
+  },
+  {
+    "act": "Influencer Outreach",
+    "prompt": "Description: Creates a personalized email template to initiate contact with a target influencer and explore potential collaboration opportunities. Includes opening greetings, collaboration introduction, and a call to action.\n\nTarget Influencer: [Influencer Name] (replace with the specific influencer's name)\n\nYour Brand: [Your Brand Name]\n\nIndustry: [Your Industry]\n\nYour Content: [Briefly describe the content you want to collaborate on (e.g., blog post, product review)] (Optional)\n\nGoal: Craft a personalized email to initiate contact with the influencer and explore potential collaboration opportunities.\n\nInclude Opening Greetings with a collaboration introduction and a call to action.",
+    "tags": [
+      "4c0733f51916430281f7ed15d91e7d60"
+    ],
+    "id": "da84a8a112e44f5f9e44bf9b41a01c57"
+  },
+  {
+    "act": "Keyword Mapping",
+    "prompt": "Description: This Prompt Develops a keyword map to optimize website content for search engines, considering your target audience and seed keywords.\n\nWebsite: [Your Website URL]\n\nGoal: \nDevelop a keyword map to optimize website content for search engines.\n\nTarget Audience: \nBriefly describe your ideal target audience (e.g., demographics, interests).\n\nSeed Keywords:\nProvide a list of 5-10 broad keywords relevant to your industry and target audience.",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "043843809415449a8d4a4f72b92bfd2d"
+  },
+  {
+    "act": "Content Syndication",
+    "prompt": "Description: Generates captivating summaries and relevant hashtags for syndicating your blog posts on social media platforms. Recommends platform-specific tone adjustments for summaries (e.g., casual for Twitter, professional for LinkedIn).\n\nBlog Posts:\nList your blog post URLs or titles here (max 3).\n\nPlatforms:\nBriefly mention your target social media platforms (e.g., Facebook, Twitter).\nGoal: Generate captivating summaries and relevant hashtags for syndicating these blog posts on social media.\n\nBriefly suggest a platform-specific tone adjustment for the summaries (e.g., casual for Twitter, professional for LinkedIn).",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "d51bcb58fc844be3bd27448072185fd6"
+  },
+  {
+    "act": "Algorithm Updates",
+    "prompt": "Description: Analyzes your content and suggests improvements to align with potential recent Google algorithm updates (focusing on publicly available information). Emphasizes following guidelines related to E-A-T, content quality, and user-centricity.\n\nTarget Content: [Content URL or Briefly describe the content type (e.g., blog post, product description)]\n\nTarget Keyword (Optional): [Your Target Keyword]\n\nGoal: Analyze the content and suggest improvements to align with potential recent algorithm updates from Google (focusing on publicly available information).\nFollow the guidelines, Focus E-A-T, Content Quality and User-Centricity,\n\nBonus:\nRecommend staying updated on the latest SEO trends and algorithm updates to maintain a future-proof content strategy.",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "bdb8afb58d3544b3a36b374b146e3bf0"
+  },
+  {
+    "act": "FAQ Pages",
+    "prompt": "Description: Generates a comprehensive FAQ page for your target audience based on industry, keyword, and niche. Creates 2-3 call-to-action options to encourage user engagement after reading the FAQ page.\n\n\n\nIndustry: [Your Industry]\n\nTarget Keyword: [Your Target Keyword]\nNiche: [Your Niche]\n\nGoal: Generate a comprehensive FAQ page for the target audience within your chosen industry, keyword, and niche.\n\nGenerate 2-3 call-to-action (CTA) options to encourage users to take the next step after reading the FAQ page",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304"
+    ],
+    "id": "fb49e4730c3c4e82ac5e69b2373497e5"
+  },
+  {
+    "act": "E-E-A-T (Expertise, Authoritativeness, Trustworthiness)",
+    "prompt": "Description: This Prompt will Analyze your content and suggest improvements to demonstrate Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T). Focuses on factors like author credentials, data quality, and source citations to enhance E-E-A-T.\n\nContent Title: \"[Original Title]\"\n\nContent Summary: [Provide a summary of your content here]\n\nGoal: Analyze and suggest improvements to ensure the content demonstrates Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T)",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "c4a12d0fb2644bf586b46354f45d1e44"
+  },
+  {
+    "act": "Rich Snippets",
+    "prompt": "Description: This prompt guides you in optimizing content and schema markup to enhance the ranking potential for Rich Snippets related to specific keywords. Analyze content readability and alignment with search intent. Recommend the suitable schema markup type (e.g., Recipe, Product, Event schema) to maximize visibility and engagement in search results.\n\nTarget Title: \"[Original Title]\" \n\nPrimary Keyword: \"[Primary Keyword]\"\nSecondary Keyword: \"[Secondary Keyword]\"\nContent Description: [Provide a summary of your content here]\n\nGoal: Optimize the content and schema markup to improve ranking for Rich Snippets related to the primary and secondary keywords. Analyze the content for readability and ensure it addresses the search intent. \n\nRecommend the most appropriate schema markup type for Rich Snippets (e.g., Recipe schema, Product schema, Event schema)\n      \n         \n  ",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "35daa9b41fab4bc396744209a6b11d13"
+  },
+  {
+    "act": "Structured Data Markup",
+    "prompt": "Description: Identifies the most appropriate schema markup type for your webpage content (e.g., Product, Recipe, Event). Generates the corresponding JSON-LD code snippet for the recommended schema type, including relevant details. Explains the benefits of using Structured Data Markup for SEO and user experience (improved search result visibility and richer information display).\n\nI have a webpage containing [describe the type of content, e.g., a blog post about a product, a recipe, an event].\n\n1. Identify Schema Markup Type:\nRecommend the most suitable schema markup type for this webpage based on its content (e.g., Product schema, Recipe schema, Event schema).\n\n2. Generate Structured Data Code:\nGenerate the corresponding JSON-LD code snippet for the recommended schema markup type. Ensure the code includes relevant information about the content (e.g., product name, ingredients, event details).\n\nBonus: Briefly explain the benefits of using Structured Data Markup for SEO and user experience.",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "05586c79a9304f5fa1068684a77d5831"
+  },
+  {
+    "act": "Optimize content structure",
+    "prompt": "Description: This Prompt Analyzes your content structure and suggests improvements for clear answers in voice search snippets. Recommends revisions for a more natural conversational tone. Analyzes content readability and search intent for Rich Snippets optimization. Suggest the most suitable schema markup type for Rich Snippets (e.g., Recipe, Product, Event).\n\nAnalyze the current content structure and suggest improvements to ensure clear and concise answers to potential voice search queries within the featured snippet length displayed by voice assistants.\n\nAnalyze the content and suggest revisions to make it sound more natural and conversational.\n\n    \n         \n  ",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304",
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "4b81bc3181a3411199dae0910b8b773e"
+  },
+  {
+    "act": "Voice Search Optimization",
+    "prompt": "Description: The prompt helps you conduct keyword research specifically for voice search optimization of your webpage targeting the \"[Target Keyword]\" in the \"[Industry]\" industry. Voice search uses natural language and question formats, so optimizing your content for these variations can improve your website's ranking in voice search results.\n\nI have a web page targeting the keyword \"[Target Keyword]\" related to the industry of \"[Industry]\"\n\nDo Keyword Research for Voice Search: Identify long-tail keyword variations with a question format typically used in voice searches relevant to \"[Target Keyword].\n    \n         \n  ",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "88b2c044333d49d793bd2df8aa137c73"
+  },
+  {
+    "act": "Content Brief/Blog Brief/Landing Page Structure: Act as an website expert in Search Engine Optimization",
+    "prompt": "Description: The prompt helps you develop a comprehensive brief for your content, whether it's a blog post, landing page, product description, or another format.  This brief serves as a roadmap for creating targeted and effective content\n\nI'm creating content for the keyword \"[Target Keyword]\" and the title \"[Content Title]\".\n    \nTargeting: Industry: Briefly describe the industry this content targets. (e.g., e-commerce, travel, fitness)\n\nTarget Audience: Describe the ideal reader for this content. (e.g., demographics, interests, pain points)\n\nContent Goals: What is the main objective of this content piece? (e.g., generate leads, educate the audience, promote a product)\n\nContent-Type: Specify the type of content you're creating (e.g., blog post, landing page, product description)\n       \n      \n         \n  ",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304"
+    ],
+    "id": "e1b7cc1a06a1493d93d150e54caf0941"
+  },
+  {
+    "act": "Keyword Research: Act as an website expert in Search Engine Optimization",
+    "prompt": "Description: The prompt is designed to help you conduct keyword research for your website in the [Industry] industry. Keyword research is crucial for SEO (Search Engine Optimization) as it helps you identify the terms and phrases people use to search for information or services related to your industry\n\nI'm working on SEO for a website in the [Industry] industry. What are the 3-5 most relevant broad keywords for this industry?\n\nFor each broad keyword you provide, I'd like you to complete the below instructions.\n\nBased on the broad keyword \"[Broad Keyword]\", identify 3-5 relevant clusters (subtopics) and generate 5-7 long-tail keywords with search intent (informational, transactional, commercial investigation). Briefly describe the search intent behind each keyword.",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "17eff38e6e564ddfaa4614b318d209ef"
+  },
+  {
+    "act": "URL Optimization: Content Optimization: Act as an website expert in Search Engine Optimization",
+    "prompt": "Description: The prompt you provided helps you optimize the URL (Uniform Resource Locator) for your blog post. A well-optimized URL serves two main purposes:\n\nImproved User Experience: A clear and concise URL that incorporates relevant keywords is easier for users to understand and remember.\n\nEnhanced Search Engine Optimization (SEO): Search engines consider URLs when ranking content. Including your target keyword in the URL can improve your post's ranking for that keyword.\n\nI have a blog post titled \"[Original Title]\" targeting the keyword \"[Target Keyword]\". The current URL for this post is \"[Current URL]\".\n    \n1. Optimize for Readability: Suggest a new URL that is clear, concise, and easy to understand for users. Use lowercase letters, hyphens for separation, and avoid special characters or numbers (unless absolutely necessary). Aim for a URL length between 50-60 characters.\n\n2. Optimize for Search Engines (SEO): Include the target keyword \"[Target Keyword]\" in the URL, ideally at the beginning. Ensure the URL accurately reflects the content of the blog post\n\n3. Maintain Brand Consistency: If applicable, consider including your brand name in the URL, but prioritize clarity over brand inclusion.\n\nBonus: Generate 2-3 additional URL variations following the guidelines above.\n\n      \n         \n  ",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "16dbfc155c514e8ca8fb3f27a47fd766"
+  },
+  {
+    "act": "H1 Tags: Content Optimization: Act as an website expert in Search Engine Optimization",
+    "prompt": "Description: The prompt is designed to help you create optimized H1 tags for your blog post. An H1 tag is the main heading on your webpage and plays a crucial role in both search engine optimization (SEO) and user experience.\n\nI'm creating content for the [Industry] industry targeting the keyword \"[Target Keyword]\". My blog post title is \"[Original Title]\". \n\n1. Generate 2-3 H1 tag variations that incorporate the target keyword \"[Target Keyword]\" naturally.\n\n2. Optimize the H1 tags for clarity and user intent, considering the industry and blog post title. Ensure the H1 accurately reflects the post's content. Use strong verbs and concise language to grab the reader's attention.\n\n3. (Optional) If applicable, include a benefit or value proposition within the H1 tag.\n\nBonus: Generate an H1 tag that uses a long-tail keyword related to the target keyword.\n\n      \n    \n  ",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "e86969762b1846c3a9a6dd2b543ba418"
+  },
+  {
+    "act": "Anchor Text Variation: Content Optimization: Act as an website expert in Search Engine Optimization",
+    "prompt": "Description: The prompt you provided helps you generate variations of anchor text for your blog post. Anchor text is the clickable text within a hyperlink that directs users to your blog post from another website.\n\nI'm optimizing the anchor text for my blog post \"[Blog Title]\" targeting the keyword \"[Target Keyword]\".\n  \n1. Generate 5-7 variations of anchor text using the target keyword \"[Target Keyword]\" in different phrasing.\n\n2. Include variations with and without the target keyword, focusing on natural language.\n\n3. Consider incorporating some variations that mention the post's benefit or value proposition.\n\nBonus: Suggest 2-3 anchor texts using long-tail keywords related to the target keyword.\n      \n    \n  ",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "b164acbedea94d98b37929e453abdfad"
+  },
+  {
+    "act": "Meta Description: Act as a Website SEO Expert",
+    "prompt": "Description: This prompt helps you craft a compelling meta description for your blog post that improves search engine optimization (SEO) and click-through rate (CTR) while aligning with your brand voice.\n\nI have a blog post titled \"[Original Title]\" about [Brief description of blog content] targeting the keyword \"[Target Keyword]\". The current meta description is:\"[Current Meta Description]\"\n    \n1. Optimize for Search Engines (SEO): Include the target keyword \"[Target Keyword]\" naturally within the description. Aim for a character count between 155-160 to avoid truncation in search results.\n\n2. Boost Click-Through Rate (CTR): Craft a compelling description that summarizes the post's key benefits or solutions. Use strong action verbs and concise language to pique reader interest. Consider including a call to action (CTA) like \"Learn More\" or \"Download Now\".\n\n3. Maintain Brand Consistency: Ensure the description reflects your brand voice and tone.\n\nBonus: Generate 2-3 additional meta description variations following the guidelines above.",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "2af9d3ca893a42a7b72bb46f7f3e143b"
+  },
+  {
+    "act": "Title Optimization: Content Optimization: Act as an website expert in Search Engine Optimization",
+    "prompt": "Description: This prompt helps you optimize the title of your blog post for search engines (SEO) and click-through rate (CTR), while maintaining brand consistency.\n\nI have a blog post titled \"[Original Title]\" about [Brief description of blog content] targeting the keyword \"[Target Keyword]\".\n\n1. Optimize for Search Engines (SEO):\nSuggest a new title that incorporates the target keyword \"[Target Keyword]\" naturally.\nEnsure the new title stays under 60 characters (ideally under 55) to avoid truncation in search results.\n2. Boost Click-Through Rate (CTR):\nMake the title clear, concise, and engaging.\nConsider using strong verbs, numbers, or questions to pique reader interest.\nIf applicable, highlight a benefit or solution the blog offers.\n3. Maintain Brand Consistency:\nIf you have a specific brand voice or tone, ensure the new title reflects that.\nBonus: Generate 2-3 additional title variations following the guidelines above.",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304",
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "8a70526270a94ccb813074a07e5d70ef"
+  },
+  {
+    "act": "Topic Ideas: Content Optimization: Act as an website expert in Search Engine Optimization",
+    "prompt": "Description: In crafting content for the [Industry] industry centered on the cluster topic \"[Cluster Topic]\", it's crucial to captivate the audience's attention while addressing their pain points and interests effectively.\n\nI'm working on content for the [Industry] industry, focusing on the cluster around \"[Cluster Topic]\"\n\n1. Generate 5-7 engaging blog post titles targeting this cluster and industry.\n2. Briefly describe the content focus for each title, considering the pain points and interests of the target audience.\n3. (Optional) Suggest any relevant subtopics or questions to explore within each blog post\n",
+    "tags": [
+      "b934aa22c7064e1d8d84c518d3032304",
+      "4c0733f51916430281f7ed15d91e7d60",
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "4f3cd87f794d4f20ba135b61a63e09bf"
+  },
+  {
+    "act": "Cluster Keywords: Act as an website expert in Search Engine Optimization",
+    "prompt": "Description: When creating content for a specific industry targeting a seed keyword, it's essential to delve into various sub topics to cover a wide range of relevant information. This approach not only enriches the content but also helps capture the attention of diverse audiences. Here's a structured approach to generating subtopics and identifying popular long-tail keywords with buying intent.\n\nI'm creating content for the [Industry] industry targeting the seed keyword \"[Seed Keyword]\". \n\n1. Generate 3-5 subtopics related to \"[Seed Keyword]\".\n2. For each subtopic, identify the 3 most popular long-tail keywords with buying intent.\n3. Briefly describe the search intent behind each long-tail keyword (informational, transactional, etc.)\n",
+    "tags": [
+      "c685afadbdc84251b6f9781f0d7fb9b5"
+    ],
+    "id": "191178c22c344a6d99ed8bc7c567fd21"
+  },
+  {
+    "act": "Act as a Social Media Strategist",
+    "prompt": "1. Twitter/Facebook/Instagram/LinkedIn Post Ideas:\n\n   Create a short post highlighting the benefits of [product/service].\n   Suggest a post that shares a quick tip about [topic].\n   Craft a fun and informative post about [upcoming event/season].\n   Generate a post that asks users to share their favorite [related topic].\n2. Promotional Posts:\n\n   Help me create a promotional post for our upcoming [sale/event/product launch].\n   Write a post that announces a special discount for [product/service].\n   Craft a post with a call to action to [sign up/buy/subscribe] to our [offer].\n   Generate a post that encourages users to take advantage of our limited-time offer.\n3. Engagement Posts:\n\n   Suggest a post that asks followers to share their thoughts on [question/topic].\n   Create a post that invites users to tag a friend who needs to see [content].\n   Write a post with a poll to gather opinions on [topic].\n   Craft a post that challenges followers to caption this [photo/gif] in a creative way\n4. Educational/Informative Posts:\n\n   Generate a post that shares a surprising fact about [topic].\n   Create an informative post that explains the basics of [concept].\n   Write a post with a quick tip for improving [relevant skill].\n   Craft a post that shares an interesting statistic related to [industry/niche].\n5. Behind-the-Scenes Posts:\n\n   Share a glimpse of our team hard at work on [project/task].\n   Create a post that takes followers behind the scenes of our [process/event].\n   Generate a post introducing a team member and their role at [company].\n6. Interactive Posts:\n\nCraft a post with a fill-in-the-blank prompt: ‘My favorite thing about [topic] is ____.\nSuggest a post that challenges users to guess the answer to a trivia question about [topic].\nWrite a post that encourages followers to complete the sentence: ‘In one word, describe [product/service].\n"
+  },
+  {
+    "act": "An Ethereum Developer",
+    "prompt": "Imagine you are an experienced Ethereum developer tasked with creating a smart contract for a blockchain messenger. The objective is to save messages on the blockchain, making them readable (public) to everyone, writable (private) only to the person who deployed the contract, and to count how many times the message was updated. Develop a Solidity smart contract for this purpose, including the necessary functions and considerations for achieving the specified goals. Please provide the code and any relevant explanations to ensure a clear understanding of the implementation."
+  },
+  {
+    "act": "SEO Prompt",
+    "prompt": "Using WebPilot, create an outline for an article that will be 2,000 words on the keyword 'Best SEO prompts' based on the top 10 results from Google. Include every relevant heading possible. Keep the keyword density of the headings high. For each section of the outline, include the word count. Include FAQs section in the outline too, based on people also ask section from Google for the keyword. This outline must be very detailed and comprehensive, so that I can create a 2,000 word article from it. Generate a long list of LSI and NLP keywords related to my keyword. Also include any other words related to the keyword. Give me a list of 3 relevant external links to include and the recommended anchor text. Make sure they’re not competing articles. Split the outline into part 1 and part 2."
+  },
+  {
+    "act": "Linux Terminal",
+    "prompt": "I want you to act as a linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. do not write explanations. do not type commands unless I instruct you to do so. when i need to tell you something in english, i will do so by putting text inside curly brackets {like this}. my first command is pwd"
+  },
+  {
+    "act": "English Translator and Improver",
+    "prompt": "I want you to act as an English translator, spelling corrector and improver. I will speak to you in any language and you will detect the language, translate it and answer in the corrected and improved version of my text, in English. I want you to replace my simplified A0-level words and sentences with more beautiful and elegant, upper level English words and sentences. Keep the meaning same, but make them more literary. I want you to only reply the correction, the improvements and nothing else, do not write explanations. My first sentence is \"istanbulu cok seviyom burada olmak cok guzel\""
+  },
+  {
+    "act": "`position` Interviewer",
+    "prompt": "I want you to act as an interviewer. I will be the candidate and you will ask me the interview questions for the `position` position. I want you to only reply as the interviewer. Do not write all the conservation at once. I want you to only do the interview with me. Ask me the questions and wait for my answers. Do not write explanations. Ask me the questions one by one like an interviewer does and wait for my answers. My first sentence is \"Hi\""
+  },
+  {
+    "act": "JavaScript Console",
+    "prompt": "I want you to act as a javascript console. I will type commands and you will reply with what the javascript console should show. I want you to only reply with the terminal output inside one unique code block, and nothing else. do not write explanations. do not type commands unless I instruct you to do so. when i need to tell you something in english, i will do so by putting text inside curly brackets {like this}. my first command is console.log(\"Hello World\");"
+  },
+  {
+    "act": "Excel Sheet",
+    "prompt": "I want you to act as a text based excel. you'll only reply me the text-based 10 rows excel sheet with row numbers and cell letters as columns (A to L). First column header should be empty to reference row number. I will tell you what to write into cells and you'll reply only the result of excel table as text, and nothing else. Do not write explanations. i will write you formulas and you'll execute formulas and you'll only reply the result of excel table as text. First, reply me the empty sheet."
+  },
+  {
+    "act": "English Pronunciation Helper",
+    "prompt": "I want you to act as an English pronunciation assistant for Turkish speaking people. I will write you sentences and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentence but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies. My first sentence is \"how the weather is in Istanbul?\""
+  },
+  {
+    "act": "Spoken English Teacher and Improver",
+    "prompt": "I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual errors. I want you to ask me a question in your reply. Now let's start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors."
+  },
+  {
+    "act": "Travel Guide",
+    "prompt": "I want you to act as a travel guide. I will write you my location and you will suggest a place to visit near my location. In some cases, I will also give you the type of places I will visit. You will also suggest me places of similar type that are close to my first location. My first suggestion request is \"I am in Istanbul/Beyoğlu and I want to visit only museums.\""
+  },
+  {
+    "act": "Proofreader",
+    "prompt": "I want you act as a proofreader. I will provide you texts and I would like you to review them for any spelling, grammar, or punctuation errors. Once you have finished reviewing the text, provide me with any necessary corrections or suggestions for improve the text."
+  },
+  {
+    "act": "Blog Generation",
+    "prompt": "1. “Can you suggest some unique and trending topics for a blog related to [your niche]?”\n\n2. “I’m looking for blog post ideas about [specific subject or industry]. Could you help me brainstorm?”\n\n3. “What are some overlooked areas within [your niche] that would make great blog topics?”\n\n4. “Give me blog post ideas that discuss the latest developments in [industry/technology/trend].”\n\n5. “Suggest blog post topics that provide actionable tips for [solving a common problem] in [your niche].”\n\n6. “I aim to educate my readers about [concept/issue]. Can you propose engaging blog post ideas?”\n\n7. “Can you help me generate blog post ideas that challenge common misconceptions in [your field]?”\n\n8. “Provide blog post ideas that showcase inspiring success stories or case studies within [your industry].”\n\n9. “Suggest blog post topics that compare different [products/tools/methods] used in [your niche].”\n\n10. “I’d like to explore the future of [industry/technology/trend]. Can you give me futuristic blog post ideas?”"
+  },
+  {
+    "act": "Create an out of office response",
+    "prompt": "I will be out of the office from [date] to [date] because [explain where you’ll be or what you’ll be doing]. During this time, I will not have access to my email. Please create an autoresponder email that is [style and tone you would like]. Tell recipients they should [alternative action you want someone to take.]"
+  },
+  {
+    "act": "Act as a editor and proof reader",
+    "prompt": "I'd like to present this information in a more concise and structured manner. Can you reformat this email into a bullet-pointed list? "
+  },
+  {
+    "act": "Act as a editor and proof reader",
+    "prompt": "Can you assist me in checking the grammar and spelling of this email? I want to ensure it is error-free and professionally written.\n"
+  },
+  {
+    "act": "Linkedin Recommendation",
+    "prompt": "I would like you to help me prepare a concise LinkedIn recommendation statement for a colleague. Please adopt a professional tone but maintain a creative , engaging approach.\n\nI will provide you with:\n\nbasic information and characteristics about my colleague. general guidelines for you to follow. 3 model recommendation statements (a,b,c) for you to learn from and model your statement around.\n\nPlease carefully consider and use the 3 model recommendations I provide as a guide to the tone, style and length I want you to achieve with my statement.\nKeep in mind this is a statement for a LinkedIn and not a recommendation letter.\nProvide 2-3 statements for me to select from.\nFinally, each statement must be no longer than 2000 characters long.\n\nBasic Information and Characteristics:\nFirst Name = {first name}\nEndorsed Skills: {endorsed skills}\nAbout my colleague: {about}\n\nGeneral Guidelines: I would like you to start with a line that will get the attention of prospective employers, makes them want to learn more about {first name}, but is not ‘over-the-top’. Remember this is a professional recommendation not a social media hype post. Give the reader some context as to how you know {first name} what you worked on together, or the length of time you’ve known each other. State one or two things about {first name} this person does better than anything else—or that make them an exceptional colleague in your mind—and focus your recommendation there. Share about what it’s like to work with {first name}. Seal the recommendation statement with a final line that makes it clear that you give your contact an enthusiastic thumbs-up. Make this a single sentence that is short, sweet, and solid. Don’t ever use the phrase, ‘in summary’.\n\nModel Recommendation Statements:\n\nOne of the values on our engineering team is “constant improvement,” and I’ve never seen anyone embrace and embody that philosophy like Meha. During the past year we’ve worked together, I’ve watched her constantly look for new challenges to tackle, whether it’s getting to the root of a buggy software, writing a script to land a reservation at an always-booked restaurant, or running charity races in her off hours. She’s also always the first to jump in if newer members of the team run into issues. I’ve loved my experience working with Meha, and I know that anyone looking to hire or work with her will, too.\n\nKeeping a project team of 50+ people aligned toward the same tasks might sound impossible, but it seemed like a breeze to Peter. We worked closely together for six months rolling out a new product launch, and I was constantly amazed not only by his technical project management skills, but also by his ability to keep the team motivated through the inevitable challenges and supply chain disruptions. I can honestly say I left every weekly status meeting he led in a better mood. For any company or team that needs a proven PM with a get-it-done-with-a-smile approach, Peter is your guy.\n\nNikita is a rising star in the PR world. As our team’s account coordinator, she effortlessly juggles reporting, scheduling, and research for five account managers (myself included). But her strengths go far beyond staying on top of our team’s needs and details. She proves her interest and drive in the field daily by going out of her way to make connections with editors and look for outside-the-box opportunities for our clients. (She’s also helped me up my PowerPoint game—big time.) Any PR team would be lucky to have Nikita, and I can’t wait to see where the future takes her."
+  },
+  {
+    "act": "Product Item Generator ",
+    "prompt": "Create a comprehensive product description for [Solution Name], designed to captivate potential customers and provide essential information for marketing purposes.\n\nSolution Name:\n[Insert Solution Name]\n\nMarketing Headline:\n[Craft a catchy headline that succinctly conveys the essence of the solution]\n\nMarketing Short Description:\n[Compose a brief, compelling description highlighting the key features and benefits of the solution]\n\nMarketing Long Description:\n[Develop a detailed narrative elaborating on the features, benefits, and unique selling points of the solution]\n\nOptimized Keywords:\n[Provide a set of optimized keywords based on the solution to enhance search engine visibility and attract relevant traffic]\n\nMeta Title:\n[Create a concise title that accurately represents the solution and entices clicks]\n\nMeta Description:\n[Write a brief and engaging meta description that summarizes the solution and encourages users to click through]\n\nKey Benefits:\n\n[List the primary benefits customers can expect from using the solution]\nValue Proposition:\n[Define the unique value proposition of the solution and how it addresses customers' needs or pain points]\n\nKey Deliverables (if applicable):\n\n[Specify the key deliverables included with the service, if the solution is a service offering]\n"
+  },
+  {
+    "act": "Act as a code write working on a Google Apps Script Project",
+    "prompt": "Ensure each function, parameter, and return statement is properly documented using the JSDoc format. \n\nNAMING CONVENTIONS: \nUse meaningful names for variables, functions, and other identifiers. \nVariable names should follow camelCase convention, starting with a lowercase letter.\n\nComments: Add comments to explain complex sections of code or provide context for what certain parts of the code are doing. \n\nUse // for single-line comments or /* */ for multi-line comments.\n\nINDENTATION: \nEnsure consistent indentation for nested blocks of code. \nEach nested block should be indented by two spaces.\n\nWHITESPACE: \nUse whitespace effectively to improve code readability. \nAdd spaces around operators and after commas.\n\nERROR HANDLING: \nInclude error handling in appropriate sections of the code, especially when interacting with external services or APIs.\n\nCONSISTENCY: \nMaintain consistency in coding style throughout the script."
+  },
+  {
+    "act": "Act as a Travel Researcher",
+    "prompt": "Could you provide statistics related to consumer preferences in the travel industry, specifically focusing on areas such as: a. Travelers' preference for using a single app to plan, book, and track their travel. b. Reasons why employees may violate company travel policies. c. The percentage of Airbnb bookings made by business travelers. d. The proportion of businesses that support leisure trips by encouraging employees to extend their business trips. e. The average cost of business travel per day in the US. For each statistic, please include a reliable source that can be quoted. Here are a few examples to follow: - 57% of travelers want to use a single app to plan, book, and track travel. (Source: Booking.com, <https://blog.spendesk.com/en/business-travel-statistics>) - 37% of employees break their company's travel policy due to convenience, 35% due to price, and 26% due to the impracticality of prescribed travel brands. (Source: Amadeus, <https://blog.spendesk.com/en/business-travel-statistics>) - 15% of total Airbnb bookings come from business travelers. (Source: Skift and Turkish Airlines, <https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref>) - Nearly 60% of businesses support leisure trips by encouraging employees to extend their business trips. (Source: Forbes, <https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref>) - The average cost of business travel per day in the US is $325. (Source: Business Travel News, <https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref>) I would appreciate it if you could provide the statistics in a similar format. Thank you."
+  },
+  {
+    "act": "Act as a travel researcher",
+    "prompt": "Find statistics related to travel such as consumer sediment, booking preferences, spend, business travel, leisure travel, move favored amenities. When returning the statistic make sure to include the source that can be quoted as well. Here are a few examples below:\n\n57% of travelers want to use a single app to plan, book, and track travel. (Booking.com) https://blog.spendesk.com/en/business-travel-statistics\n\nWhen asked why, employees break their company travel policy 37% say the reason is convenience, 35% say price, and 26% say that the prescribed travel brands are not practical for a particular trip. Source: (Amadeus) https://blog.spendesk.com/en/business-travel-statistics\n\n15% of total Airbnb bookings come from business travelers. Source: (Skift and Turkish Airlines) https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref\n\nNearly 60% of businesses support leisure trips by encouraging employees to extend their business trips. Source: (Forbes) https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref\n\nThe average cost of business travel per day in the US is $325. Source: [Business Travel News] https://www.smallbizgenius.net/by-the-numbers/business-travel-statistics/#gref\n\n"
+  },
+  {
+    "act": " Act as a travel researcher",
+    "prompt": "Find a quote from a real life influential hotel figure that talk about innovation in the hotel or travel industry. You must be able to quote a real and and their past or present company or position. try to find some that's a rebel or not from a major hotel brand. Pick the less obvious choice."
+  },
+  {
+    "act": "Act as a content write for a major website",
+    "prompt": "1. Write a cohesive summary the highlights the topic and generates curiosity for the reader to click. The tone should be engaging and informative, leaving the reader eager to delve deeper into the topic. \n\n2. Write a cohesive description about the [ blog below ] of the key highlights or topics and generates curiosity for the reader to click in a read the whole thing. the tone should be engaging and informative, leaving the reader eager to delve deeper into the topic. \n\n3. Craft a compelling meta description for the [blog] below with 250 characters or less that succinctly summarizes the essence of your content, captivating readers and encouraging clicks with clarity and intrigue.\n\n4. Linkedin Generate a teaser post for this [blog]. Share an interesting insight to captivate attention.\n\n"
+  }
+  {
     "act": "Act as a Social Media Strategist",
     "prompt": "1. Twitter/Facebook/Instagram/LinkedIn Post Ideas:\n\n   Create a short post highlighting the benefits of [product/service].\n   Suggest a post that shares a quick tip about [topic].\n   Craft a fun and informative post about [upcoming event/season].\n   Generate a post that asks users to share their favorite [related topic].\n2. Promotional Posts:\n\n   Help me create a promotional post for our upcoming [sale/event/product launch].\n   Write a post that announces a special discount for [product/service].\n   Craft a post with a call to action to [sign up/buy/subscribe] to our [offer].\n   Generate a post that encourages users to take advantage of our limited-time offer.\n3. Engagement Posts:\n\n   Suggest a post that asks followers to share their thoughts on [question/topic].\n   Create a post that invites users to tag a friend who needs to see [content].\n   Write a post with a poll to gather opinions on [topic].\n   Craft a post that challenges followers to caption this [photo/gif] in a creative way\n4. Educational/Informative Posts:\n\n   Generate a post that shares a surprising fact about [topic].\n   Create an informative post that explains the basics of [concept].\n   Write a post with a quick tip for improving [relevant skill].\n   Craft a post that shares an interesting statistic related to [industry/niche].\n5. Behind-the-Scenes Posts:\n\n   Share a glimpse of our team hard at work on [project/task].\n   Create a post that takes followers behind the scenes of our [process/event].\n   Generate a post introducing a team member and their role at [company].\n6. Interactive Posts:\n\nCraft a post with a fill-in-the-blank prompt: ‘My favorite thing about [topic] is ____.\nSuggest a post that challenges users to guess the answer to a trivia question about [topic].\nWrite a post that encourages followers to complete the sentence: ‘In one word, describe [product/service].\n",
     "tags": [
