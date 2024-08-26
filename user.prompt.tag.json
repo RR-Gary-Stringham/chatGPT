@@ -101,4 +101,55 @@
     "description": "",
     "id": "00a5af2e953c47f98a8f0a4996ff345d"
   }
+  {
+    "name": "Content",
+    "color": {
+      "metaColor": {
+        "originalInput": "#1D849A",
+        "r": 29,
+        "g": 132,
+        "b": 154,
+        "a": 1,
+        "roundA": 1,
+        "format": "hex",
+        "isValid": true
+      }
+    },
+    "description": "",
+    "id": "b934aa22c7064e1d8d84c518d3032304"
+  },
+  {
+    "name": "Social",
+    "color": {
+      "metaColor": {
+        "originalInput": "#00486E",
+        "r": 0,
+        "g": 72,
+        "b": 110,
+        "a": 1,
+        "roundA": 1,
+        "format": "hex",
+        "isValid": true
+      }
+    },
+    "description": "",
+    "id": "4c0733f51916430281f7ed15d91e7d60"
+  },
+  {
+    "name": "SEO",
+    "color": {
+      "metaColor": {
+        "originalInput": "#54BBEE",
+        "r": 84,
+        "g": 187,
+        "b": 238,
+        "a": 1,
+        "roundA": 1,
+        "format": "hex",
+        "isValid": true
+      }
+    },
+    "description": "ChatGPT adapts to evolving SEO trends, automates routine tasks, and allows focus on strategic decision-making, keeping strategies relevant and competitive.",
+    "id": "c685afadbdc84251b6f9781f0d7fb9b5"
+  }
 ]
